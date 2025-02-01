@@ -29,6 +29,12 @@ log-ip-app/
 - **static/style.css**: The stylesheet that controls the visual presentation of the pages.
 - **templates/**: Contains HTML files for the app's various pages (Home, About, Projects).
 
+## Screenshot
+
+Here’s a screenshot of the app in action:
+
+![Screenshot](image/image.png)
+
 ## Prerequisites
 
 - Go 1.20 or above installed on your system.
