@@ -48,10 +48,13 @@ func renderTemplate(w http.ResponseWriter, tmpl string, data interface{}) {
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
+	logAccess(r) // Ghi log khi có người truy cập vào trang chủ
 	renderTemplate(w, "index", nil)
 }
 
 func projectsHandler(w http.ResponseWriter, r *http.Request) {
+	// write log when someone access to projects page
+	logAccess(r)
 	projects := []struct {
 		Title  string
 		Detail string
