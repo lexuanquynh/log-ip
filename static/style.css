@@ -1,0 +1,96 @@
+/* Toàn bộ trang */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover, .active {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Trang chính - Hero */
+.hero {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #00796b;
+}
+
+/* Giới thiệu (About) */
+.intro {
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Dự án (Projects) */
+.projects {
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.projects ul li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
